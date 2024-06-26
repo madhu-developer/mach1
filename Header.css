@@ -1,0 +1,78 @@
+.topnav-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    background-image: linear-gradient(to right,#ffc107 , #fd7e14,#dc3545,#d63384);
+    height:8vh;
+    width:100%;
+}
+.logo-container{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.search-box-section{
+    padding:8px 20px;
+    background-color:rgba(255, 255, 255, .2);
+    border:none;
+    border-radius:5px;
+}
+.search-box{
+   background:transparent;
+    border:none;
+}
+.search-box::placeholder{
+    color:white;
+}
+.search-icon{
+    color:white;
+}
+.search-and-profile-section{
+    display:flex;
+    align-items:center;
+}
+.profile-section{
+    display:flex;
+    align-items:center;
+    color:white;
+}
+.profile-icon{
+   height:25px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown:hover .dropdown-content {display: block;}
+  

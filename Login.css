@@ -1,0 +1,156 @@
+
+.login-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    letter-spacing: 1px;
+}
+
+.login-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 3px;
+    border:1px solid #d1d1d1;
+    width: 450px;
+    max-width: 90%;
+    height: auto;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: top;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+.login-form label{
+    letter-spacing: 0px;
+}
+.login-form input {
+    margin-bottom: 30px;
+    padding: 12px 10px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
+
+.password-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-input-container input::placeholder {
+    font-size: 36px;
+}
+
+.password-input-container input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.password-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #8c8888;
+    margin-bottom: 20px;
+}
+
+.login-form button {
+    padding: 10px;
+    background-image: linear-gradient(to right,#ffc107, #fd7e14,#dc3545,#d63384);
+    color: rgb(238, 235, 235);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.password-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-section a {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-heading-section {
+    margin: 15px;
+}
+
+.login-heading-section p {
+    font-weight: 400;
+    padding: 8px;
+    color: grey;
+}
+
+
+@media (max-width: 768px) {
+    .login-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .login-form input {
+        padding: 10px;
+    }
+
+    .password-input-container input {
+        font-size: 14px;
+    }
+
+    .login-form button {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .password-section a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .login-form input {
+        padding: 8px;
+    }
+
+    .password-input-container input {
+        font-size: 12px;
+    }
+
+    .login-form button {
+        font-size: 16px;
+        padding: 6px;
+    }
+
+    .password-section a {
+        font-size: 10px;
+    }
+}

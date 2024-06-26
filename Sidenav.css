@@ -1,0 +1,38 @@
+.sidenav-section{
+  background-color: #212529;
+  border-right: 1px solid transparent;
+  width:12%;
+  transition: width 1s;
+  height:100vh;
+  
+} 
+.sidenav-section a{
+    text-decoration: none;
+    display:flex;
+    color:#a6a8a9;
+    margin-bottom:8px;
+    padding:6px;
+}
+.sidenav-section a:focus-within{
+    background-color:#4d5154;
+    color:#ffc107;
+}
+.nav-icon{
+    margin-right:16px;
+}
+.logo-section{
+    display:flex;
+    padding-top:10px;
+}
+
+.open-toggle-icon{
+    color:#a6a8a9;
+    height:30px;
+    width:60px;
+    margin-left:6rem;  
+}
+.close-toggle-icon{
+  margin:0px; 
+  color:#a6a8a9;
+  height:30px;
+}

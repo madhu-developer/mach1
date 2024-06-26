@@ -1,0 +1,85 @@
+.projects-container{
+    width:100%;
+    min-width:88%;
+    max-width:100%;
+    padding:10px 6px 10px 10px;
+}
+.project-and-add-project-section{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.add-project-button{
+    background-color:#fd7e14;
+    padding:12px 16px;
+    border:none;
+    border-radius:18px;
+    color:white;
+    font-size: 16px;
+}
+.projects-list table{
+    width:100vw;
+}
+.search-inputs-section{
+    display:flex;
+}
+.projects-buttons{
+    display:flex;
+}
+.projects-buttons button{
+    background-color:#fd7e14;
+    padding:8px 16px;
+    margin:2px;
+    border-radius: 8px;
+    border:none;
+    font-size:12px;
+    color:white;
+}
+.each-project{
+    text-decoration: none;
+    color:black;
+}
+.each-project:hover{
+    color:#fd7e14;
+}
+.search-input-section{
+    display:flex;
+    align-items:center;
+    padding:10px;
+}
+.search-input-section label{
+    margin-right:5px;
+}
+.search-input-section input{
+    padding:8px 20px;
+    border:1px solid rgb(211, 208, 208);
+    border-radius:6px;
+}
+.search-input-section input::placeholder{
+    color:rgb(211, 208, 208);
+}
+
+table,th{
+    border-collapse:collapse;
+}
+tr:nth-child(even) {
+    background-color: #dedede;
+}
+table{
+    width:100%;
+}
+td,th {
+    text-align: center;
+    padding: 8px 20px;
+    border-bottom:1px solid rgb(211, 208, 208);
+    border-top:1px solid rgb(211, 208, 208);
+}
+.hide-button{
+    background-color:#fd7e14;
+    padding:8px 16px;
+    margin:2px;
+    border-radius: 8px;
+    border:none;
+    font-size:12px;
+    color:white;
+}

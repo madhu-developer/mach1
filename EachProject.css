@@ -1,0 +1,56 @@
+.project-section{
+    background-color: whitesmoke;
+    width:100%;
+    display:flex;
+}
+.each-project-container{
+    
+}
+.each-project-section{
+    padding:15px;  
+}
+.each-project-section h3{
+    padding:10px;
+}
+.projects-details-section{
+    margin:5px;
+    border:1px solid #dedede;
+    display:flex;
+    justify-content:space-between;
+    width:35vw;
+    background-color: white;
+}
+.each-detail{
+    margin-bottom:10px;
+    width:100%;
+}
+.each-detail p{
+    color:#4d5154;
+    font-size: 12px;
+}
+.each-detail h5{
+    color:#dc3545;
+}
+.teams-section{
+    background-color: white;
+    width:35vw;
+    padding:15px;
+    border:1px solid #dedede;
+    margin:5px;
+}
+.team-count-addteam-section{
+    display:flex;
+    justify-content:space-between ;  
+}
+.add-team-button, .teams-buttons button, .delete-button{
+    background-color:#fd7e14;
+    padding:8px 16px;
+    margin:2px;
+    border-radius: 8px;
+    border:none;
+    font-size:12px;
+    color:white;
+}
+.teams-list{
+    margin-top:10px;  
+}
